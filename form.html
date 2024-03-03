@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"
+    href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <form>
+        <h1>FEEDBACK FORM</h1>
+        <hr>
+        <h4>Student Name</h4>
+        <input type="text" name="studentname" id="name" placeholder=" Enter Name"/>
+        <h4>Roll No</h4>
+        <input type="integer" name="rollno" id="name" placeholder=" Enter Rollnumber"/>
+        <h4>Department</h4>
+        <input type="radio" id="radio" name="department" value="IT"/>
+        <label for="radio">IT</label>
+        <br>
+        <input type="radio" name="department" id="radio" value="Comp"/>
+        <label for="radio">Computer</label>
+        <br>
+        <input type="radio" name="department" id="radio" value="Mechanical"/>
+        <label for="radio">Mechanical</label>
+        <br>
+        <input type="radio" name="department" id="radio" value="Electronics"/>
+        <label for="radio">Electronics</label>
+
+        <h4>Subjects</h4>
+        <input type="checkbox" name="subject" id="sub" value="C++"/>
+        <label for="radio">C++</label>
+        <input type="checkbox" name="subject" id="sub" value="Java"/>
+        <label for="radio">Java</label>
+        <input type="checkbox" name="subject" id="sub" value="Python"/>
+        <label for="radio">Python</label>
+        <input type="checkbox" name="subject" id="sub" value="R"/>
+        <label for="radio">R</label>
+
+        <h4>Email</h4>
+        <input type="text" name="email" id="emailid" placeholder=" Enter Email"/>
+         
+        <h4>Comments</h4>
+        <textarea name="comm" id="comments" rows="6" cols="50" placeholder="hi">
+        </textarea>
+
+        <hr>
+        <button type="submit" id="submit" name="sub">Submit</button>
+    </form>    
+</body>
+</html>
